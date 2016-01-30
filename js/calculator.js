@@ -5,15 +5,22 @@
 
     var fonts = {
         arial: {k:4, m:56.6},
-        direct: {k:4.9, m:61.7},
+        arialCapitals: {k:4, m:56.6},
+        direct: {k:4.8780487804878, m:51.7},
+        directCapitals: {k:7, m:61.7},
         meringue: {k:5, m:76.6},
+        meringueCapitals: {k:5, m:76.6},
         tahoma: {k:6, m:86.6},
+        tahomaCapitals: {k:6, m:86.6},
         story: {k:7, m:96.6},
+        storyCapitals: {k:7, m:96.6},
         times: {k:8, m:16.6},
-        verdana: {k:9, m:26.6}
+        timesCapitals: {k:8, m:16.6},
+        verdana: {k:9, m:26.6},
+        verdanaCapitals: {k:9, m:26.6}
     };
 
-    var dotSize = 0.0321;
+    var dotSize = 0.0320855526772571;
 
     var $fontFamilyInput = $('#font-family-input');
     var $lettersCaseSelect = $('#letters-case-select');
@@ -27,34 +34,38 @@
 
 
     $([$fontFamilyInput, $lettersCaseSelect]).each(function(){
-        this.on('change', recalculateAll);
+        this.on('change focus blur', recalculateAll);
     });
 
-    $($distanceInput).on('change', calculateRequiredFontBodySize);
-    $($letterBodySizeInput).on('change', calculateDistance);
+    $($distanceInput).on('change focus blur', calculateRequiredFontBodySize);
+    $($letterBodySizeInput).on('change focus blur', calculateDistance);
 
     recalculateAll();
 
 
     function recalculateAll() {
+        var postfix;
+        var capitals =  parseInt( $lettersCaseSelect.val() );
         var currentFont = $fontFamilyInput.val();
-        currentFontData = fonts[currentFont];
+
+        capitals ? postfix = 'Capitals' : postfix = '';
+        currentFontData = fonts[currentFont+postfix];
+
+
+        console.log(currentFontData);
 
         calculateRequiredFontBodySize();
         calculateDistance();
     }
 
     function calculateRequiredFontBodySize() {
-        var currentFont, lettersHeight, requiredBodySize;
-
-        currentFont = $fontFamilyInput.val();
-        currentFontData = fonts[currentFont];
+        var lettersHeight, requiredBodySize;
 
         lettersHeight = getLettersHeight();
-        $lettersHeightOutput.html( Math.round(lettersHeight*100)/100 );
+        $lettersHeightOutput.html( lettersHeight.toFixed(2) );
 
         requiredBodySize = lettersHeight * currentFontData.m / 10;
-        $lettersBodySizeOutput.html( Math.round(requiredBodySize*100)/100 );
+        $lettersBodySizeOutput.html( requiredBodySize.toFixed(2) );
     }
 
     function calculateDistance() {
@@ -65,10 +76,10 @@
         fontM = currentFontData.m;
 
         distance = fontBodySize / Math.tan( radians( dotSize * fontK) ) / 100 / fontM;
-        $distanceOutput.html( Math.round(distance*100)/100 );
+        $distanceOutput.html(distance.toFixed(2) );
 
         sybmolsHeight = fontBodySize / fontM * 10;
-        $symbolsHeight.html( Math.round(sybmolsHeight*100)/100 );
+        $symbolsHeight.html( sybmolsHeight.toFixed(2) );
 
     }
 
