@@ -25,7 +25,7 @@
     var $fontFamilyInput = $('#font-family-input');
     var $lettersCaseSelect = $('#letters-case-select');
     var $distanceInput =  $('#distance-input');
-    var $letterBodySizeInput = $('#letterBodySize-input');
+    var $letterBodySizeInput = $('#letter-body-size-input');
 
     var $distanceOutput = $('#distance-output');
     var $lettersHeightOutput = $('#letters-height-output');
@@ -44,6 +44,7 @@
 
 
     function recalculateAll() {
+
         var postfix;
         var capitals =  parseInt( $lettersCaseSelect.val() );
         var currentFont = $fontFamilyInput.val();
@@ -71,7 +72,7 @@
     function calculateDistance() {
         var distance, sybmolsHeight, fontBodySize, fontK, fontM;
 
-        fontBodySize = $letterBodySizeInput.val();
+        fontBodySize = $letterBodySizeInput.val() || 0;
         fontK = currentFontData.k;
         fontM = currentFontData.m;
 
