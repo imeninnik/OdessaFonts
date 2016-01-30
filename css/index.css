@@ -1,0 +1,316 @@
+body {
+  background-color: rgb(255, 255, 255);
+  font: 400 1.938em/1.38 'PT Sans';
+  color: rgb(0, 0, 0);
+}
+
+.additional-text {
+  position: relative;
+  float: left;
+  z-index: 4;
+  width: 20.9016393442%;
+  margin: 52px 0 0 8.8776499999%;
+  font-size: 0.484em;
+  color: rgb(0, 0, 0);
+}
+
+.container {
+  width: 73.2%;
+  height: 609px;
+  margin: 58px auto 0;
+}
+
+.distance {
+  float: left;
+}
+
+.distance .distance {
+  width: 77.1276595744%;
+  height: 74px;
+}
+
+.font-size-line {
+  position: relative;
+  float: left;
+  width: 100%;
+  min-width: 732px;
+  height: 49px;
+}
+
+.guide-cover {
+  display: block;
+  float: left;
+  width: 49px;
+  height: auto;
+  overflow: hidden;
+}
+
+.guide-link {
+  position: relative;
+  float: left;
+  width: 153px;
+  min-width: 148px;
+  height: 92px;
+  margin: 6px 0 0 38.20336%;
+}
+
+.guide-link .text {
+  clear: both;
+  width: 100.6535947712%;
+  min-width: 150px;
+  height: 20px;
+  margin: 4px 0 0 -0.65359%;
+  font-size: 0.484em;
+  color: rgb(0, 0, 0);
+}
+
+.height-symbols {
+  float: left;
+  clear: both;
+  width: 100%;
+  height: 67px;
+  margin-top: 10px;
+}
+
+.image {
+  display: block;
+  float: left;
+  width: 90px;
+  height: auto;
+  margin-top: 4px;
+  overflow: hidden;
+}
+
+.logo-h1 {
+  float: left;
+  width: 38.2175226586%;
+  height: 99px;
+}
+
+.made {
+  position: relative;
+  float: left;
+  z-index: 2;
+  margin: 1px 0 0 3.14739%;
+  font-size: 0.452em;
+  color: rgb(0, 0, 0);
+}
+
+.mm,
+.pt {
+  float: left;
+  margin-left: 7.02294%;
+  font-size: 1em;
+  color: rgb(32, 117, 188);
+}
+
+.my-type {
+  float: left;
+  width: 77.1276595744%;
+  height: 74px;
+}
+
+.odessa-logo {
+  display: block;
+  float: left;
+  width: 35px;
+  height: auto;
+  margin: -23px 0 0 -20.73864%;
+  overflow: hidden;
+}
+
+.text {
+  float: left;
+}
+
+.total {
+  float: left;
+  font-size: 1em;
+  color: rgb(32, 117, 188);
+}
+
+.totally {
+  float: left;
+  clear: both;
+  width: 100%;
+  height: 42px;
+  margin-top: 3px;
+}
+
+.type {
+  position: relative;
+  float: left;
+  z-index: 18;
+  width: 25.6830601092%;
+  height: 238px;
+  margin: 31px 0 0 8.8776499999%;
+}
+
+.version {
+  position: relative;
+  float: left;
+  clear: both;
+  z-index: 1;
+  margin: -11px 0 0 29.22636%;
+  font-size: 0.323em;
+  color: rgb(0, 0, 0);
+}
+
+.vichislyalka {
+  float: left;
+  clear: both;
+  width: 100%;
+  min-width: 732px;
+  height: 318px;
+  margin-top: 60px;
+}
+
+.need-type,
+.will-read {
+  float: left;
+  clear: both;
+  width: 100%;
+  height: 67px;
+  margin-top: 20px;
+}
+
+._input {
+  display: block;
+  float: left;
+  clear: both;
+  width: 100%;
+  height: 48px;
+  margin-top: 4px;
+  padding: 0 10px;
+  border: 1px solid #2075bc;
+  border-radius: 3px;
+  background-color: rgb(242, 242, 242);
+  font-size: 0.968em;
+  color: rgb(0, 0, 0);
+}
+
+._select {
+  display: block;
+  float: left;
+  height: 49px;
+  padding-left: 35px;
+  border-radius: 8px;
+  background: url('../images/select-arrows.svg') rgb(242, 242, 242);
+  background-repeat: no-repeat;
+  background-size: auto auto;
+  background-position: 11px 50%;
+  color: rgb(0, 0, 0);
+}
+
+.container ._container {
+  float: left;
+}
+
+.font-size-line ._text {
+  float: left;
+  font-size: 1.161em;
+  color: rgb(0, 0, 0);
+}
+
+.height-symbols ._text {
+  font-size: 0.516em;
+  color: rgb(32, 117, 188);
+}
+
+.logo-h1 ._text {
+  float: left;
+  clear: both;
+  width: 100%;
+  min-width: 255px;
+  max-width: 255px;
+  margin-top: -22px;
+  font-family: 'PT Serif';
+  font-size: 0.774em;
+  color: rgb(0, 0, 0);
+}
+
+.distance ._text-4,
+.my-type ._text {
+  float: left;
+  font-size: 0.516em;
+  color: rgb(0, 0, 0);
+}
+
+.need-type ._text,
+.will-read ._text {
+  float: left;
+  font-size: 0.516em;
+  color: rgb(32, 117, 188);
+}
+
+.distance-1 {
+  position: relative;
+  clear: both;
+  z-index: 32;
+  width: 25.6830601092%;
+  height: 238px;
+  margin-top: 31px;
+}
+
+.container ._container-2 {
+  width: 90.4371584699%;
+  min-width: 662px;
+  height: 100px;
+  min-height: 100px;
+  max-height: 100px;
+}
+
+.container ._container-3 {
+  clear: both;
+  width: 349px;
+  height: 61px;
+  margin-top: 70px;
+}
+
+.font-size-line ._select-1 {
+  width: 28.7696379781%;
+  margin-left: 2.04705%;
+  font-size: 1.161em;
+}
+
+.font-size-line ._select-2 {
+  width: 34.1508709016%;
+  margin-left: 1.5561%;
+  padding-bottom: 1px;
+  font-size: 0.774em;
+}
+
+.height-symbols ._text-9 {
+  float: left;
+}
+
+.text a {
+  border-bottom: 1px solid rgb(32, 117, 188);
+  border-top-width: 0;
+  border-right-width: 0;
+  border-left-width: 0;
+  border-top-color: transparent;
+  border-right-color: transparent;
+  border-left-color: transparent;
+  border-top-style: none;
+  border-right-style: none;
+  border-left-style: none;
+  border-top-left-radius: 0;
+  border-top-right-radius: 0;
+  border-bottom-right-radius: 0;
+  border-bottom-left-radius: 0;
+  background-color: transparent;
+  font-family: inherit;
+  font-style: inherit;
+  font-size: inherit;
+  font-weight: inherit;
+  text-transform: inherit;
+  text-decoration: inherit;
+  letter-spacing: inherit;
+  word-spacing: inherit;
+  color: rgb(32, 117, 188);
+  opacity: 1;
+  word-break: normal;
+  word-wrap: normal;
+  white-space: normal;
+}
