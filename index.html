@@ -2,102 +2,82 @@
 <!doctype html>
 <html>
 <head>
-  <meta charset="utf-8">
-  <meta name="viewport" content="initial-scale=1.0">
-  <title>Вычисление шрифта одесской вывески</title>
-  <link href="http://fonts.googleapis.com/css?family=PT+Sans:400,400|PT+Serif:400" rel="stylesheet" type="text/css">
-  <link rel="stylesheet" href="css/standardize.css">
-  <link rel="stylesheet" href="css/index.css">
+    <meta charset="utf-8">
+    <meta name="viewport" content="initial-scale=1.0">
+    <title>Шрифтомер</title>
+    <link href="http://fonts.googleapis.com/css?family=PT+Sans:400,400|PT+Serif:400" rel="stylesheet" type="text/css">
+    <link rel="stylesheet" href="css/standardize.css">
+    <link rel="stylesheet" href="css/shriftomer-3.css">
 
-  <!-- Yandex.Metrika counter --> <script type="text/javascript"> (function (d, w, c) { (w[c] = w[c] || []).push(function() { try { w.yaCounter34989135 = new Ya.Metrika({ id:34989135, clickmap:true, trackLinks:true, accurateTrackBounce:true, webvisor:true }); } catch(e) { } }); var n = d.getElementsByTagName("script")[0], s = d.createElement("script"), f = function () { n.parentNode.insertBefore(s, n); }; s.type = "text/javascript"; s.async = true; s.src = "https://mc.yandex.ru/metrika/watch.js"; if (w.opera == "[object Opera]") { d.addEventListener("DOMContentLoaded", f, false); } else { f(); } })(document, window, "yandex_metrika_callbacks"); </script> <noscript><div><img src="https://mc.yandex.ru/watch/34989135" style="position:absolute; left:-9999px;" alt="" /></div></noscript> <!-- /Yandex.Metrika counter -->
-  <script src="js/jquery-min.js"></script>
+    <!-- Yandex.Metrika counter --> <script type="text/javascript"> (function (d, w, c) { (w[c] = w[c] || []).push(function() { try { w.yaCounter34989135 = new Ya.Metrika({ id:34989135, clickmap:true, trackLinks:true, accurateTrackBounce:true, webvisor:true }); } catch(e) { } }); var n = d.getElementsByTagName("script")[0], s = d.createElement("script"), f = function () { n.parentNode.insertBefore(s, n); }; s.type = "text/javascript"; s.async = true; s.src = "https://mc.yandex.ru/metrika/watch.js"; if (w.opera == "[object Opera]") { d.addEventListener("DOMContentLoaded", f, false); } else { f(); } })(document, window, "yandex_metrika_callbacks"); </script> <noscript><div><img src="https://mc.yandex.ru/watch/34989135" style="position:absolute; left:-9999px;" alt="" /></div></noscript> <!-- /Yandex.Metrika counter -->
+
 
 </head>
-<body class="body page-index clearfix">
-<div class="container container-1 clearfix">
-  <header class="_container-2 clearfix">
-    <div class="logo-h1 clearfix">
-      <img class="odessa-logo" src="images/odessa-logo.gif">
-      <h1 class="_text">Руководство&nbsp;<br>по созданию хорошей <br>одесской вывески</h1>
+<body class="body page-shriftomer-3 clearfix">
+<div class="all clearfix">
+    <div class="container container-1 clearfix">
+        <header class="_container-2 clearfix">
+            <img class="odessa-logo" src="images/odessa-logo.gif">
+            <h1 class="_text _text-1">Руководство&nbsp;по созданию<br>хорошей одесской вывески</h1>
+        </header>
     </div>
-    <div class="guide-link clearfix">
-      <img class="guide-cover" src="images/pdf.jpg">
-      <p class="text _text"><a href="#">Скачать</a> (ПДФ, 3,3 МБ)</p>
+    <div class="container container-2 clearfix">
+        <h2 class="_text _text-2">Шрифтомер</h2>
     </div>
-  </header>
-  <div class="vichislyalka clearfix">
-    <div class="font-size-line clearfix">
-      <h2 class="_text">Размер шрифта</h2>
-      <div class="container clearfix">
-        <select id="font-family-input" class="_select _select-1">
-          <option value="arial">Arial</option>
-          <option value="direct">Direct</option>
-          <option value="meringue">Meringue</option>
-          <option value="tahoma">Tahoma</option>
-          <option value="story">Story</option>
-          <option value="times">Times New Roman</option>
-          <option value="verdana">Verdana</option>
-        </select>
-        <select id="letters-case-select" class="_select _select-2">
-          <option value="0">строчными</option>
-          <option value="1">прописными и числами</option>
-        </select>
-      </div>
+    <div class="container container-3">
+        <div class="container container-4 clearfix">
+            <div class="container container-5">
+                <img class="head" src="images/head.gif">
+                <p class="comment">Наблюдатель <br>с остротой зрения <br>от 100 до 50</p>
+            </div>
+            <div class="distance"></div>
+            <div class="container container-6 clearfix">
+                <h3 class="_text _text-3">Дистанция</h3>
+                <div class="container container-7 clearfix">
+                    <div class="input clearfix">
+                        <input id="distance-input" class="_input" name="distanciya" placeholder="0" type="number">
+                        <p class="m">м</p>
+                    </div>
+                    <label id="show-on-map" class="checkbox-label clearfix js-map">
+                        <input class="checkbox" type="checkbox">
+                        <span class="point-text _text">На карте</span>
+                    </label>
+                </div>
+            </div>
+            <div class="viveska">
+                <div class="top">
+                    <p class="text _text">⤒</p>
+                    <div class="hr"></div>
+                </div>
+                <p class="name">Кафе</p>
+                <div class="bottom clearfix">
+                    <p class="text _text">⤓</p>
+                    <div class="hr"></div>
+                </div>
+                <div class="font-size clearfix">
+                    <p class="_text">Высота
+                        прописных символов</p>
+                    <input id="symbols-height" class="_input" name="distanciya" placeholder="0" type="number">
+                    <p class="m">мм</p>
+                </div>
+            </div>
+        </div>
     </div>
-    <div class="distance distance-1 clearfix">
-      <div class="distance clearfix">
-        <h3 class="_text _text-4">Дистанция</h3>
-        <div class="input-block clearfix">
-          <input id="distance-input" class="_input" name="distanciya" placeholder="0" type="number" min="0" value="">
-          <p class="m">м</p>
-        </div>
-      </div>
-      <div class="need-type clearfix">
-        <h3 class="_text">Необходимый кегль</h3>
-        <div class="totally clearfix">
-          <p id="letters-body-size-output" class="total">0</p>
-          <p class="pt">pt</p>
-        </div>
-      </div>
-      <div class="height-symbols clearfix">
-        <p class="text _text">Или высота символов</p>
-        <div class="totally clearfix">
-          <p id="letters-height-output" class="total">0</p>
-          <p class="mm">мм</p>
-        </div>
-      </div>
+    <div class="mapus clearfix">
+        <div class="map"><script type="text/javascript" charset="utf-8" src="https://api-maps.yandex.ru/services/constructor/1.0/js/?sid=C_Go-hJME_GVf_C3_RWdQXZZgcXPr0pS&width=100%&height=316&lang=uk_UA&sourceType=constructor"></script></div>
     </div>
-    <div class="type clearfix">
-      <div class="my-type clearfix">
-        <h3 class="_text">Кегль</h3>
-        <div class="input-block clearfix">
-          <input id="letter-body-size-input" class="_input" name="font" placeholder="0" type="number" min="0" value="">
-          <p class="m">pt</p>
+    <div class="footer clearfix">
+        <div class="into-footer clearfix">
+            <img class="image" src="images/artlebedev-logo.svg">
+            <div class="container">
+                <p class="made">Сделано на одесском практикуме</p>
+                <p class="version">Версия 3, 5 февраля 2016</p>
+            </div>
         </div>
-      </div>
-      <div class="will-read clearfix">
-        <h3 class="_text">Прочтут не позже</h3>
-        <div class="totally clearfix">
-          <p id="distance-output" class="total">0</p>
-          <p class="m">м</p>
-        </div>
-      </div>
-      <div class="height-symbols clearfix">
-        <h3 class="_text _text-9">Высота символов</h3>
-        <div class="totally clearfix">
-          <p id="symbols-height" class="total">0</p>
-          <p class="mm">мм</p>
-        </div>
-      </div>
     </div>
-    <p class="additional-text">Система рассчитана на аудиторию с остротой зрения от 100 до 50 %</p>
-  </div>
-  <footer class="_container-4 clearfix">
-    <img class="image" src="images/artlebedev-logo.svg">
-    <p class="made">Сделано на одесском практикуме</p>
-    <p class="version">Версия 3, 29 января 2016</p>
-  </footer>
 </div>
-<script src="js/calculator.js"></script>
+
+<script src="js/jquery-min.js"></script>
+<script src="js/shriftomer-3.js"></script>
 </body>
 </html>

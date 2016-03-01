@@ -1,0 +1,378 @@
+body {
+    background-color: rgb(255, 255, 255);
+    font: 400 0.813em/1.38 'PT Sans';
+    color: rgb(0, 0, 0);
+}
+
+.all {
+    position: relative;
+    width: 100%;
+    min-width: 1000px;
+    max-width: 1600px;
+    margin: -52px auto 0;
+    padding-bottom: 25px;
+}
+
+.bottom {
+    position: absolute;
+    top: 0;
+    left: 8.1644328211%;
+    z-index: 14;
+    width: 45.5050670153%;
+    height: 22px;
+}
+
+.bottom .hr {
+    position: relative;
+    float: right;
+    clear: both;
+    z-index: 12;
+    width: 99.572368421%;
+    margin: -5px 1px 0 0;
+}
+
+.bottom .text {
+    position: relative;
+    float: left;
+    z-index: 13;
+    margin-left: 7.14997%;
+}
+
+.checkbox {
+    display: block;
+    float: right;
+    margin: 3px 84.26966% 0 0;
+}
+
+.checkbox-label {
+    display: block;
+    position: absolute;
+    top: 48px;
+    left: 0;
+    right: 0;
+    z-index: 23;
+    width: 89px;
+    margin: 0 auto;
+}
+
+.comment {
+    position: absolute;
+    top: 84px;
+    left: 0.221238938%;
+    z-index: 30;
+    width: 112px;
+    border-radius: 4px;
+    font-style: italic;
+    font-size: 1em;
+    color: #4d4d4d;
+}
+
+.container {
+    float: left;
+}
+
+.container .container {
+    position: relative;
+}
+
+.distance {
+    position: relative;
+    float: left;
+    clear: both;
+    z-index: 20;
+    width: 47.3118279569%;
+    height: 83px;
+    margin: -143px 0 0 26.3020833333%;
+    background-image: url('../images/rarr-green.gif');
+    background-repeat: no-repeat;
+    background-size: 630px auto;
+    background-position: right center;
+}
+
+.font-size {
+    position: absolute;
+    top: 80px;
+    right: 23.4713870684%;
+    z-index: 11;
+    width: 64.8604823998%;
+    height: 30px;
+}
+
+.font-size .m {
+    float: left;
+    margin: -32px 0 0 142px;
+}
+
+.footer {
+    float: left;
+    clear: both;
+    width: 100%;
+    height: 33px;
+    margin-top: 51px;
+}
+
+.head {
+    display: block;
+    position: absolute;
+    top: 0;
+    left: -0.0414823009%;
+    z-index: 31;
+    width: 61px;
+    height: auto;
+    overflow: hidden;
+}
+
+.hr {
+    height: 1px;
+    background: none rgb(180, 214, 243);
+}
+
+.image {
+    display: block;
+    float: left;
+    width: 90px;
+    height: auto;
+    margin-top: 2px;
+    overflow: hidden;
+}
+
+.input {
+    width: 35.4798443351%;
+    height: 39px;
+    margin: 0 auto;
+}
+
+.input .m {
+    float: right;
+    margin: -31px -23px 0 0;
+}
+
+.into-footer {
+    width: 330px;
+    height: 33px;
+    margin: 0 auto;
+}
+
+.into-footer .container {
+    position: relative;
+    width: 67.5840256797%;
+    height: 33px;
+    margin-left: 4.03883%;
+}
+
+.m {
+    clear: both;
+    font-size: 1.385em;
+    color: rgb(32, 117, 188);
+}
+
+.made {
+    position: absolute;
+    top: 0;
+    left: 0;
+    z-index: 1;
+    font-size: 1.077em;
+    color: rgb(0, 0, 0);
+}
+
+.map {
+    width: 100%;
+    height: 316px;
+    margin: 0 auto;
+    overflow: hidden;
+}
+
+.mapus {
+    visibility: hidden;
+    float: left;
+    clear: both;
+    width: 90%;
+    height: 316px;
+    margin: 81px 0 0 5%;
+}
+
+.name {
+    position: absolute;
+    top: 9px;
+    left: 11.7603792088%;
+    z-index: 15;
+    width: 146px;
+    height: 33px;
+    font-family: 'PT Serif';
+    font-size: 1.923em;
+    color: rgb(0, 0, 0);
+}
+
+.odessa-logo {
+    display: block;
+    float: left;
+    width: 37px;
+    height: auto;
+    margin-left: -1px;
+    overflow: hidden;
+}
+
+.point-text {
+    display: block;
+    float: right;
+    clear: both;
+    margin: -16px 15.73034% 0 0;
+    font-size: 1.077em;
+}
+
+.text {
+    font-family: 'PT Serif';
+    font-size: 1.231em;
+    color: rgb(180, 214, 243);
+}
+
+.top {
+    position: absolute;
+    top: 36px;
+    left: 7.6413860738%;
+    z-index: 18;
+    width: 45.5050670153%;
+    height: 22px;
+}
+
+.top .hr {
+    position: absolute;
+    top: 4px;
+    right: 1px;
+    z-index: 16;
+    width: 99.5705318797%;
+}
+
+.top .text {
+    position: absolute;
+    top: 0;
+    left: 8.2011892963%;
+    z-index: 17;
+}
+
+.version {
+    position: absolute;
+    top: 19px;
+    left: 0;
+    font-size: 0.769em;
+    color: rgb(0, 0, 0);
+}
+
+.viveska {
+    position: relative;
+    float: right;
+    width: 25.6972446236%;
+    height: 58px;
+    margin: -130px 0.05035% 0 0;
+}
+
+._input {
+    display: block;
+    height: 40px;
+    padding: 2px 10px 0;
+    border: 1px solid #2075bc;
+    border-radius: 3px;
+    background-color: rgb(255, 255, 255);
+    font-size: 1.385em;
+    color: rgb(0, 0, 0);
+}
+
+.font-size ._input {
+    float: left;
+    width: 88%;
+    margin-left: -1px;
+}
+
+.font-size ._text {
+    position: absolute;
+    top: -1px;
+    left: -85px;
+    z-index: 8;
+    width: 78px;
+    font-style: italic;
+    font-size: 1em;
+    color: rgb(77, 77, 77);
+}
+
+.input ._input {
+    float: right;
+    width: 99.4757401315%;
+    min-width: 150px;
+}
+
+.container-1 {
+    width: 28.1999999999%;
+    height: 48px;
+    margin: 103px 0 0 5.1%;
+}
+
+.container-2 {
+    clear: both;
+    width: 89.8%;
+    height: 49px;
+    margin: 83px 0 0 5.1%;
+}
+
+.container-3 {
+    clear: both;
+    width: 90%;
+    height: 139px;
+    margin: 58px 0 0 5%;
+}
+
+.container-4 {
+    width: 100%;
+    height: 139px;
+}
+
+.container-5 {
+    width: 12.4774305555%;
+    height: 135px;
+    margin: 8px 0 0 12.19965%;
+}
+
+.container-6 {
+    z-index: 29;
+    width: 47.3107638888%;
+    height: 128px;
+    margin: -110px 0 0 26.3316%;
+}
+
+.container-7 {
+    clear: both;
+    width: 99.9523180751%;
+    height: 68px;
+    margin: 45px 0 0 -0.05871%;
+}
+
+.container ._container-2 {
+    float: left;
+    width: 282px;
+    min-width: 276px;
+    height: 48px;
+}
+
+.container ._text-1 {
+    float: left;
+    margin-left: 3.98551%;
+    font-family: 'PT Serif';
+    font-size: 1.385em;
+    color: rgb(0, 0, 0);
+}
+
+.container ._text-2 {
+    float: left;
+    width: 100%;
+    font-size: 2.769em;
+    text-align: center;
+    color: rgb(0, 0, 0);
+}
+
+.container ._text-3 {
+    height: 15px;
+    margin: 0 auto;
+    font-size: 1.077em;
+    line-height: 1.28;
+    text-align: center;
+    color: rgb(110, 110, 110);
+}
