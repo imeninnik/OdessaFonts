@@ -206,13 +206,15 @@ input[type=number]::-webkit-outer-spin-button {
   overflow: hidden;
 }
 
+
 .mapus {
   visibility: hidden;
   float: left;
   clear: both;
-  width: 90%;
+  width: 80%;
   height: 316px;
-  margin: 81px 0 0 5%;
+  margin: 20px 0 0 10%;
+  background-color: rgb(251, 251, 251);
 }
 
 .name {
