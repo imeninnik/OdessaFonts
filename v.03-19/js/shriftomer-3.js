@@ -107,15 +107,14 @@
     }
 
     function calculateLettersHeightSimplified() {
-        var thisValue, lettersHeight, requiredBodySize;
-
+        var thisValue, lettersHeight;
+        //debugger; //debugger
         if (bypassCalculationForHeight) return;
 
-        thisValue = $(this).val();
+        thisValue = $distanceInput.val();
         //if (thisValue) thisValue = thisValue.replace(/\D/g,'');
 
         if (!thisValue) return;
-        //debugger; //debugger
         if (thisValue == currentDistance) return;
 
         bypassCalculationForDistance = true;
@@ -134,11 +133,10 @@
 
 
 
-        thisValue = $(this).val();
+        thisValue = $symbolsHeight.val();
         //if (thisValue) thisValue = thisValue.replace(/\D/g,'');
 
         if (!thisValue) return;
-       // debugger; //debugger
         if (thisValue == currentHeight) return;
 
         distance = thisValue / currentFontData.ratio;
@@ -199,13 +197,28 @@
             zoom: 17
         });
 
-        window.map.events.add('click', function (e) {
+
+        window.map.behaviors.get('ruler').geometry.events.add('change', function(e) {
+            console.warn( window.map.behaviors.get('ruler').geometry.getDistance() );
+            var distance = window.map.behaviors.get('ruler').geometry.getDistance();
+            $distanceInput.val(distance.toFixed(2));
+            if (distance) calculateLettersHeightSimplified();
+        });
+
+        /*window.map.events.add('click', function (e) {
+            console.warn(1);
            // if (!map.behaviors.get('ruler').geometry) return;
+
             console.warn(
 
                 window.map.behaviors.get('ruler').geometry.getDistance()
+                //turn ruler on by default
+                //map.behaviors.get('ruler').enable()
+
+                // close all
+                // map.behaviors.get('ruler').close(true);
             );
-        });
+        });*/
 
     }
 
