@@ -3,7 +3,7 @@
 
     var currentFontData,
         bypassCalculationForDistance, bypassCalculationForHeight,
-        currentDistance, currentHeight;
+        currentDistance, currentHeight, map;
 
     var fonts = {
         //original Direct type
@@ -15,6 +15,10 @@
     var dotSize = 0.0320855526772571;
 
     currentFontData = defaultFontData;
+
+    //todo refactor
+    setTimeout(function() { createMap();  }, 2000);
+
 
     var $fontFamilyInput = $('#font-family-input');
     var $lettersCaseSelect = $('#letters-case-select');
@@ -189,5 +193,20 @@
         return degrees * (Math.PI / 180);
     }
 
+    function createMap() {
+        window.map = new ymaps.Map("mapus-map", {
+            center: [46.4845,30.7418],
+            zoom: 17
+        });
+
+        window.map.events.add('click', function (e) {
+           // if (!map.behaviors.get('ruler').geometry) return;
+            console.warn(
+
+                window.map.behaviors.get('ruler').geometry.getDistance()
+            );
+        });
+
+    }
 
 })(jQuery);
