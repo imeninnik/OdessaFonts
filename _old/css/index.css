@@ -1,0 +1,371 @@
+body {
+  background-color: rgb(255, 255, 255);
+  font: 400 1.188em/1.38 'PT Sans';
+  color: rgb(0, 0, 0);
+}
+
+.additional-text {
+  position: relative;
+  float: left;
+  z-index: 4;
+  width: 20.9016393442%;
+  margin: 52px 0 0 3.68426%;
+  font-size: 0.789em;
+  color: rgb(0, 0, 0);
+}
+
+.distance {
+  position: relative;
+  float: left;
+}
+
+.distance .distance {
+  width: 186px;
+  height: 74px;
+  margin-left: 1.06383%;
+}
+
+.distance .input-block {
+  width: 186px;
+}
+
+.distance .m {
+  margin-left: 15px;
+}
+
+.font-size-line {
+  position: relative;
+  float: left;
+  width: 100%;
+  min-width: 732px;
+  height: 49px;
+}
+
+.font-size-line .container {
+  float: left;
+  width: 61.9962431693%;
+  height: 40px;
+  margin: 5px 0 0 1.9083%;
+}
+
+.guide-cover {
+  display: block;
+  float: left;
+  width: 49px;
+  height: auto;
+  overflow: hidden;
+}
+
+.guide-link {
+  position: relative;
+  float: left;
+  width: 153px;
+  min-width: 148px;
+  height: 92px;
+  margin: 6px 0 0 38.20336%;
+}
+
+.guide-link .text {
+  clear: both;
+  width: 100.6535947712%;
+  min-width: 150px;
+  height: 20px;
+  margin: 4px 0 0 -0.65359%;
+  font-size: 0.789em;
+  color: rgb(0, 0, 0);
+}
+
+.height-symbols {
+  float: left;
+  clear: both;
+  width: 100%;
+  height: 67px;
+  margin-top: 10px;
+}
+
+.image {
+  display: block;
+  float: left;
+  width: 90px;
+  height: auto;
+  margin-top: 4px;
+  overflow: hidden;
+}
+
+.input-block {
+  position: relative;
+  float: left;
+  clear: both;
+  height: 48px;
+  margin-top: 4px;
+}
+
+.input-block .m {
+  margin-top: 5px;
+  font-size: 1.579em;
+  color: rgb(0, 0, 0);
+}
+
+.logo-h1 {
+  float: left;
+  width: 38.2175226586%;
+  height: 99px;
+}
+
+.m {
+  float: left;
+}
+
+.made {
+  position: relative;
+  float: left;
+  z-index: 2;
+  margin: 1px 0 0 3.14739%;
+  font-size: 0.737em;
+  color: rgb(0, 0, 0);
+}
+
+.mm,
+.pt {
+  float: left;
+  margin-left: 12px;
+  font-size: 1.632em;
+  color: rgb(32, 117, 188);
+}
+
+.my-type {
+  float: left;
+  width: 100%;
+  height: 74px;
+}
+
+.my-type .input-block {
+  width: 226px;
+}
+
+.my-type .m {
+  margin-left: 17px;
+}
+
+.odessa-logo {
+  display: block;
+  float: left;
+  width: 35px;
+  height: auto;
+  margin: -23px 0 0 -20.73864%;
+  overflow: hidden;
+}
+
+.text {
+  float: left;
+}
+
+.total {
+  float: left;
+  font-size: 1.632em;
+  color: rgb(32, 117, 188);
+}
+
+.totally {
+  float: left;
+  clear: both;
+  width: 100%;
+  height: 42px;
+  margin-top: 3px;
+}
+
+.totally .m {
+  margin-left: 12px;
+  font-size: 1.632em;
+  color: rgb(32, 117, 188);
+}
+
+.type {
+  position: relative;
+  float: left;
+  z-index: 20;
+  width: 30.8743169398%;
+  height: 238px;
+  margin: 31px 0 0 8.87978%;
+}
+
+.version {
+  position: relative;
+  float: left;
+  clear: both;
+  z-index: 1;
+  margin: -11px 0 0 29.22636%;
+  font-size: 0.526em;
+  color: rgb(0, 0, 0);
+}
+
+.vichislyalka {
+  float: left;
+  clear: both;
+  width: 100%;
+  min-width: 732px;
+  height: 318px;
+  margin-top: 60px;
+}
+
+.need-type,
+.will-read {
+  float: left;
+  clear: both;
+  width: 100%;
+  height: 67px;
+  margin-top: 20px;
+}
+
+._input {
+  display: block;
+  float: left;
+  height: 48px;
+  padding: 2px 10px 0;
+  border: 1px solid #2075bc;
+  border-radius: 3px;
+  background-color: rgb(242, 242, 242);
+  font-size: 1.579em;
+  color: rgb(0, 0, 0);
+}
+
+._select {
+  display: block;
+  float: left;
+  height: 40px;
+  padding-bottom: 1px;
+  padding-left: 32px;
+  border-radius: 8px;
+  background: url('../images/arrows(3).gif') rgb(242, 242, 242);
+  background-repeat: no-repeat;
+  background-size: 14px 14px;
+  background-position: 5% 50%;
+  font-size: 1em;
+  color: rgb(0, 0, 0);
+}
+
+._select:hover {
+  background-color: rgb(230, 230, 230);
+}
+
+.distance ._input {
+  width: 74.7311827956%;
+}
+
+.font-size-line ._text {
+  float: left;
+  font-size: 1.895em;
+  color: rgb(0, 0, 0);
+}
+
+.height-symbols ._text {
+  font-size: 0.842em;
+  color: rgb(32, 117, 188);
+}
+
+.logo-h1 ._text {
+  float: left;
+  clear: both;
+  width: 100%;
+  min-width: 255px;
+  max-width: 255px;
+  margin-top: -22px;
+  font-family: 'PT Serif';
+  font-size: 1.263em;
+  color: rgb(0, 0, 0);
+}
+
+.my-type ._input {
+  width: 62.831858407%;
+}
+
+.distance ._text-4,
+.my-type ._text {
+  float: left;
+  font-size: 0.842em;
+  color: rgb(0, 0, 0);
+}
+
+.need-type ._text,
+.will-read ._text {
+  float: left;
+  font-size: 0.842em;
+  color: rgb(32, 117, 188);
+}
+
+.container-1 {
+  width: 73.2%;
+  min-width: 732px;
+  height: 609px;
+  margin: 58px auto 0;
+}
+
+.distance-1 {
+  clear: both;
+  z-index: 36;
+  width: 25.6830601092%;
+  height: 238px;
+  margin-top: 31px;
+}
+
+.container ._container-2 {
+  float: left;
+  width: 90.4371584699%;
+  min-width: 662px;
+  height: 100px;
+  min-height: 100px;
+  max-height: 100px;
+}
+
+.container ._container-4 {
+  float: left;
+  clear: both;
+  width: 349px;
+  height: 61px;
+  margin-top: 70px;
+}
+
+.container ._select-1 {
+  width: 40.308370044%;
+  margin-left: -0.0826332462%;
+}
+
+.container ._select-2 {
+  width: 50%;
+  margin-left: 3.1917091309%;
+}
+
+.height-symbols ._text-9 {
+  float: left;
+}
+
+.text a {
+  border-bottom: 1px solid rgb(32, 117, 188);
+  border-top-width: 0;
+  border-right-width: 0;
+  border-left-width: 0;
+  border-top-color: transparent;
+  border-right-color: transparent;
+  border-left-color: transparent;
+  border-top-style: none;
+  border-right-style: none;
+  border-left-style: none;
+  border-top-left-radius: 0;
+  border-top-right-radius: 0;
+  border-bottom-right-radius: 0;
+  border-bottom-left-radius: 0;
+  background-color: transparent;
+  font-family: inherit;
+  font-style: inherit;
+  font-size: inherit;
+  font-weight: inherit;
+  text-transform: inherit;
+  text-decoration: inherit;
+  letter-spacing: inherit;
+  word-spacing: inherit;
+  color: rgb(32, 117, 188);
+  opacity: 1;
+  word-break: normal;
+  word-wrap: normal;
+  white-space: normal;
+}

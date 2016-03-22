@@ -1,0 +1,398 @@
+body {
+  height: 100%;
+  background: none rgb(255, 255, 255);
+  background-repeat: no-repeat;
+  background-size: 1175px 684px;
+  background-position: 59% 12%;
+  font: 400 1em/1.38 'PT Sans';
+  color: rgb(0, 0, 0);
+}
+
+/* Remove controls from Safari and Chrome */
+input[type=number]::-webkit-inner-spin-button,
+input[type=number]::-webkit-outer-spin-button {
+  -webkit-appearance: none;
+  margin: 0; /* Removes leftover margin */
+}
+
+.all {
+  position: relative;
+  width: 100%;
+  min-width: 1000px;
+  max-width: 1600px;
+  margin: 0 auto;
+  padding-bottom: 25px;
+}
+
+.arrow {
+  position: absolute;
+  left: 0;
+  right: 0;
+  width: 7px;
+  margin: 0 auto;
+  font-family: 'PT Serif';
+  font-size: 1em;
+  color: rgb(180, 214, 243);
+}
+
+.bottom {
+  position: absolute;
+  top: 51px;
+  left: -0.1102178424%;
+  z-index: 25;
+  width: 240px;
+  height: 22px;
+}
+
+.bottom .arrow {
+  top: 0;
+  z-index: 24;
+}
+
+.bottom .hr {
+  top: 4px;
+  z-index: 23;
+}
+
+.checkbox {
+  display: block;
+  float: left;
+  width: 16px;
+  margin-top: 3px;
+}
+
+.checkbox-label {
+  display: block;
+  float: left;
+  width: 160px;
+  height: 20px;
+  margin-top: 16px;
+}
+
+.description {
+  position: relative;
+  float: left;
+  width: 67.9487179487%;
+  height: 33px;
+  margin: -4px 0 0 1.25659%;
+}
+
+.distance-input {
+  float: right;
+  width: 235px;
+  height: 40px;
+  margin: 7px 41% 0 0;
+}
+
+.distance-line {
+  position: absolute;
+  top: 34px;
+  left: 0;
+  z-index: 22;
+  width: 85%;
+  height: 2px;
+  border: 1px dashed rgb(180, 214, 243);
+}
+
+.fontsize-input {
+  position: relative;
+  float: right;
+  clear: both;
+  width: 254px;
+  height: 40px;
+  margin-top: -42px;
+}
+
+.footer {
+  float: left;
+  clear: both;
+  width: 100%;
+  height: 116px;
+  margin-top: 47px;
+}
+
+.footer .container {
+  float: left;
+  width: 332px;
+  height: 81px;
+  margin-left: 10%;
+}
+
+.head {
+  position: relative;
+  float: left;
+  z-index: 31;
+  width: 61px;
+  height: 58px;
+  margin: 13px 0 0 -0.0625%;
+  background-image: url('../images/man.gif');
+  background-repeat: no-repeat;
+  background-size: 61px auto;
+  background-position: 20% 0%;
+}
+
+.head-line-sign {
+  position: relative;
+  float: left;
+  width: 100%;
+  height: 73px;
+}
+
+.hr {
+  position: absolute;
+  left: 0;
+  width: 100%;
+  height: 1px;
+  background: none rgb(180, 214, 243);
+}
+
+.image {
+  display: block;
+  float: left;
+  width: 90px;
+  height: auto;
+  overflow: hidden;
+}
+
+.inputs {
+  position: relative;
+  float: left;
+  clear: both;
+  width: 100%;
+  height: 53px;
+  margin-top: 56px;
+}
+
+.inputs .container {
+  width: 100%;
+  height: 47px;
+  margin: 0 auto;
+}
+
+.instruments {
+  width: 80%;
+  height: 182px;
+  margin: 90px auto 0;
+}
+
+.logo {
+  float: left;
+  width: 249px;
+  height: 48px;
+  margin: 43px 0 0 10.1%;
+}
+
+.m {
+  float: left;
+  margin: 9px 0 0 12px;
+  font-size: 1.125em;
+  color: rgb(110, 110, 110);
+}
+
+.made {
+  position: absolute;
+  top: 0;
+  left: 0;
+  z-index: 1;
+  font-size: 0.875em;
+  text-align: center;
+  color: rgb(0, 0, 0);
+}
+
+.map {
+  width: 100%;
+  height: 316px;
+  margin: 0 auto;
+  overflow: hidden;
+}
+
+
+.mapus {
+  visibility: hidden;
+  float: left;
+  clear: both;
+  width: 80%;
+  height: 316px;
+  margin: 20px 0 0 10%;
+  background-color: rgb(251, 251, 251);
+}
+
+.name {
+  position: absolute;
+  top: 4px;
+  left: 2px;
+  z-index: 29;
+  font-family: 'PT Serif';
+  font-size: 2.563em;
+  color: rgb(0, 0, 0);
+}
+
+.namus {
+  position: relative;
+  width: 80%;
+  margin: 174px auto 0;
+}
+
+.odessa-logo {
+  display: block;
+  float: left;
+  width: 37px;
+  height: auto;
+  margin-left: -49px;
+  overflow: hidden;
+}
+
+.point-text {
+  display: block;
+  float: left;
+  margin-left: 5px;
+  font-size: 1em;
+}
+
+.tema-logo {
+  float: left;
+  width: 28.8461538461%;
+  height: 30px;
+}
+
+.text {
+  width: 53.0555555555%;
+  margin: 58px auto 0;
+  font-size: 0.938em;
+  text-align: center;
+  color: rgb(0, 0, 0);
+}
+
+.top {
+  position: absolute;
+  top: 0;
+  left: -0.1102178424%;
+  z-index: 28;
+  width: 240px;
+  height: 22px;
+}
+
+.top .arrow {
+  top: -1px;
+  z-index: 27;
+}
+
+.top .hr {
+  top: 17px;
+  z-index: 26;
+}
+
+.version {
+  position: absolute;
+  top: 24px;
+  left: 0;
+  font-size: 0.625em;
+  text-align: center;
+  color: rgb(0, 0, 0);
+}
+
+.viveska {
+  position: relative;
+  float: right;
+  z-index: 30;
+  width: 241px;
+  height: 73px;
+  margin-right: 16px;
+  padding-left: 4px;
+  background-color: rgb(255, 255, 255);
+  box-shadow: -2px 0 0 3px rgb(255, 255, 255);
+}
+
+._input {
+  display: block;
+  float: left;
+  width: 110px;
+  height: 40px;
+  padding: 2px 10px 0;
+  border: 1px solid #6e6e6e;
+  border-radius: 3px;
+  background-color: rgb(255, 255, 255);
+  font-size: 1.125em;
+  color: rgb(0, 0, 0);
+}
+
+.distance-input ._input {
+  margin-left: 20px;
+}
+
+.distance-input ._text {
+  float: left;
+  margin: 10px 0 0 4px;
+  font-size: 1em;
+  line-height: 1.28;
+  text-align: right;
+  color: rgb(0, 0, 0);
+}
+
+.fontsize-input ._input {
+  margin: 2px 0 0 107px;
+}
+
+.fontsize-input ._text {
+  position: absolute;
+  top: 12px;
+  left: 0;
+  z-index: 11;
+  font-size: 1em;
+  line-height: 1.28;
+  text-align: right;
+  color: rgb(0, 0, 0);
+}
+
+.logo ._text {
+  float: left;
+  clear: both;
+  margin: -47px 0 0 -0.35141%;
+  font-family: 'PT Serif';
+  font-size: 1.125em;
+  color: rgb(0, 0, 0);
+}
+
+.namus ._text-2 {
+  float: left;
+  width: 100%;
+  font-size: 2.25em;
+  text-align: center;
+  color: rgb(0, 0, 0);
+}
+
+.made a {
+  border-bottom: 1px solid #b4d6f3;
+  border-top-width: 0;
+  border-right-width: 0;
+  border-left-width: 0;
+  border-top-color: transparent;
+  border-right-color: transparent;
+  border-left-color: transparent;
+  border-top-style: none;
+  border-right-style: none;
+  border-left-style: none;
+  border-top-left-radius: 0;
+  border-top-right-radius: 0;
+  border-bottom-right-radius: 0;
+  border-bottom-left-radius: 0;
+  background-color: transparent;
+  font-family: inherit;
+  font-style: inherit;
+  font-size: inherit;
+  font-weight: inherit;
+  text-transform: inherit;
+  text-decoration: inherit;
+  letter-spacing: inherit;
+  word-spacing: inherit;
+  color: #2075bc;
+  opacity: 1;
+  word-break: normal;
+  word-wrap: normal;
+  white-space: normal;
+}
+
+.made a:hover {
+  border-bottom-color: #88beec;
+  color: #195a90;
+}
